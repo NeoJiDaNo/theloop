@@ -506,6 +506,18 @@ transition: .3s;
 	color: #CBCFD4;
 }
 
+.footer__menu-link:hover {
+	animation: footer-link;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes footer-link {
+	to {
+		transform: scale(1.1);
+	}
+}
+
 /* footer */
 
 /* decoraty */
